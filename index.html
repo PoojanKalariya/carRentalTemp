@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Rentals</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximumscale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            
+                    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(0, 0, 0, 0.801);">
+                        <div class="container">
+                            <a href="#" class="navbar-brand mr-auto">Car Rentals</a>
+
+                            <button class="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#mynavbar">
+                                <span class="navbar-toggler-icon ham-icon" ></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse text-center" id="mynavbar">
+
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item"> <a class="nav-link" href="">HOME</a></li>
+                                    <li class="nav-item"> <a class="nav-link" href="">ABOUT</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="">CARS</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="">SERVICE</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="">TEAM</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="">BLOG</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="">CONTACT</a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">PAGES</a>
+                                        <div class="dropdown-menu">
+                                            <a href="#" class="dropdown-item">BLOG SINGLE</a>
+                                            <a href="#" class="dropdown-item">ELEMENTS</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-7 banner-message">
+                                <div class="row">
+                                    <div class="col-12 my-2">
+                                        <h6>THE ROYAL ESSENCE OF JOURNEY</h6>
+                                    </div>
+                                    <div class="col-12 my-2">
+                                        <h1>RELAXED JOURNEY EVER</h1>
+                                    </div>
+                                    <div class="col-12 my-2">
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nobis qui magni? Itaque asperiores a esse eos placeat et libero?</p>
+                                    </div>
+                                    <div class="col-12 my-2">
+                                      <a href=""><button type="button" class="banner-button">RENT CAR NOW</button></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 banner-form my-5 form-box">
+
+                                <div class="container my-5">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h5 style="color: #fff;">Book Your Car Today!</h5>
+                                            </div> 
+                                        </div>
+
+                                        <div action="" class=" row">
+
+                                            <div class="col-12 py-2">
+                                                    <select type="text" class="form-control" placeholder="Select Your Car">
+                                                        <option selected>Select Your Car</option>
+                                                        <option value="1">Ferarri</option>
+                                                        <option value="1">BMW</option>
+                                                        <option value="1">Range Rover</option>
+                                                    </select>
+                                            </div>
+
+                                            <div class="col-6 py-2">
+                                                <select name="" class="form-control" id="">
+                                                    <option selected>Pick Up</option>
+                                                    <option value="1">Pickup1</option>
+                                                    <option value="1">Pickup2</option>
+                                                    <option value="1">Pickup3</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-6 py-2">
+                                                <select name="" class="form-control" id="">
+                                                    <option selected>Date & Time</option>
+                                                    <option value="1">Pickup1</option>
+                                                    <option value="1">Pickup2</option>
+                                                    <option value="1">Pickup3</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="col-6 py-2">
+                                                <select name="" class="form-control" id="">
+                                                    <option selected>Drop</option>
+                                                    <option value="1">Drop1</option>
+                                                    <option value="1">Drop2</option>
+                                                    <option value="1">Drop3</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-6 py-2">
+                                                <select name="" class="form-control" id="">
+                                                    <option selected>Date & Time</option>
+                                                    <option value="1">Pickup1</option>
+                                                    <option value="1">Pickup2</option>
+                                                    <option value="1">Pickup3</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="col-12 py-2">
+                                                <input type="text" class="form-control" placeholder="Your Name">
+                                            </div>
+
+                                            <div class="col-12 py-2">
+                                                <input type="email" class="form-control" placeholder="Email Address">
+                                            </div>
+
+                                            <div class="col-12 py-2">
+                                                <input type="text" class="form-control" placeholder="Phone Number">
+                                            </div>
+
+                                            <div class="col-12 py-2 d-block">
+                                                <a href=""><button type="button" class="banner-button">Confir Your Booking</button></a>
+                                            </div>
+
+                                        </div>
+                                
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>              
+        </div>
+    </header>
+
+    <div id="service">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-12 my-5 text-center">
+                    <h2>What services we offer to our clients</h2>
+                    <p class="text-muted">Who are in extrimly love with ecofriendly system.</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">  
+                            <h5>
+                                <span class="lnr lnr-user"> </span>
+                                Expert Technicians
+                            </h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, facilis sunt. Dolorem soluta eaque quo?</p>
+                    </div>  
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">  
+                        <h5> <span class="lnr lnr-user"> </span> Expert Technicians</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, facilis sunt. Dolorem soluta eaque quo?</p>
+                    </div>  
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">  
+                        <h5> <span class="lnr lnr-user"> </span> Expert Technicians</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, facilis sunt. Dolorem soluta eaque quo?</p>
+                    </div>  
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">  
+                        <h5> <span class="lnr lnr-user"> </span> Expert Technicians</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, facilis sunt. Dolorem soluta eaque quo?</p>
+                    </div>  
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">  
+                        <h5> <span class="lnr lnr-user"> </span> Expert Technicians</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, facilis sunt. Dolorem soluta eaque quo?</p>
+                    </div>  
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">  
+                        <h5> <span class="lnr lnr-user"> </span> Expert Technicians</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, facilis sunt. Dolorem soluta eaque quo?</p>
+                    </div>  
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="row">
+            <div class="col-md-6 picture">
+                
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12 py-2">
+                        <h1>Globally Connected <br> By Large Network</h1>
+                    </div>
+                    <div class="col-md-12 py-2">
+                        <h6>We are here to listen from you deliver exellence.</h6>
+                    </div>
+                    <div class="col-md-12 py-2 text-muted">
+                        <p  class="padd">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis totam alias perferendis accusantium qui, dolores excepturi libero. Adipisci earum molestias, blanditiis sequi fuga odit quaerat quod reiciendis aut dolorem dolore recusandae quam! Quasi, nihil. Ullam totam, asperiores unde voluptatibus quibusdam excepturi necessitatibus amet recusandae ad iure quae odio aliquam repellendus.</p>
+                    </div>
+                    <div class="col-md-12 py-2">
+                        <a href=""><button type="button" class="banner-button">Get Details</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-12 text-center py-5">
+                <h2>Choose Your Favourite Car Model</h2>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur .</p>
+            </div>
+        </div>
+        <div class="row py-5 rent">
+            <div class="col-md-6 py-4">
+                <div class="title justify-content-between d-flex">
+                    <h4>Audi 3000 msi</h4>
+                    <h2>$124 <span>/day</span> </h2>
+                </div>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae placeat ad totam nulla nihil voluptates doloribus laborum et deserunt veniam.</p>
+                <p class="text-muted">Capacity:4 <br> Doors:4 <br> Air Condition: Dual </p>
+               <a href=""><button type="button" class="sel-button">Book This Car Now</button></a> 
+            </div>
+            <div class="col-md-6">
+                <img src="leftpic.jpg" alt="" class="img-fluid py-2">
+
+            </div>
+        </div>
+
+        <div class="row py-5 rent">
+            <div class="col-md-6 py-4">
+                <div class="title justify-content-between d-flex">
+                    <h4>Audi 3000 msi</h4>
+                    <h2>$124 <span>/day</span> </h2>
+                </div>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae placeat ad totam nulla nihil voluptates doloribus laborum et deserunt veniam.</p>
+                <p class="text-muted">Capacity:4 <br> Doors:4 <br> Air Condition: Dual </p>
+               <a href=""><button type="button" class="sel-button">Book This Car Now</button></a> 
+            </div>
+            <div class="col-md-6">
+                <img src="leftpic.jpg" alt="" class="img-fluid py-2">
+            </div>
+        </div>
+
+        <div class="row py-5 rent">
+            <div class="col-md-6 py-4">
+                <div class="title justify-content-between d-flex">
+                    <h4>Audi 3000 msi</h4>
+                    <h2>$124 <span>/day</span> </h2>
+                </div>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae placeat ad totam nulla nihil voluptates doloribus laborum et deserunt veniam.</p>
+                <p class="text-muted">Capacity:4 <br> Doors:4 <br> Air Condition: Dual </p>
+               <a href=""><button type="button" class="sel-button">Book This Car Now</button></a> 
+            </div>
+            <div class="col-md-6">
+                <img src="leftpic.jpg" alt="" class="img-fluid py-2">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid yellob my-5">
+        <div class="container">
+            <div class="row">
+            
+                <div class="col-lg-3 text-center py-3">
+                    <h1>2548</h1>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+                <div class="col-lg-3 text-center py-3">
+                    <h1>2548</h1>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+                <div class="col-lg-3 text-center py-3">
+                    <h1>2548</h1>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+                <div class="col-lg-3 text-center py-3">
+                    <h1>2548</h1>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="feature">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-12 my-5 text-center">
+                    <h2>Some features that make us unique.</h2>
+                    <p class="text-muted">Who are in extrimly love with ecofriendly system.</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box text-center">  
+                            <h5>
+                                Expert Technicians
+                            </h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, facilis sunt. Dolorem soluta eaque quo?</p>
+                        <div class="icons">
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box text-center">  
+                        <h5>Expert Technicians</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, facilis sunt. Dolorem soluta eaque quo?</p>
+                        <div class="icons">
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box text-center">  
+                        <h5>Expert Technicians</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, facilis sunt. Dolorem soluta eaque quo?</p>
+                        <div class="icons">
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box text-center">  
+                        <h5>Expert Technicians</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, facilis sunt. Dolorem soluta eaque quo?</p>
+                        <div class="icons">
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box text-center">  
+                        <h5>Expert Technicians</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, facilis sunt. Dolorem soluta eaque quo?</p>
+                        <div class="icons">
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box text-center">  
+                        <h5>Expert Technicians</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, facilis sunt. Dolorem soluta eaque quo?</p>
+                        <div class="icons">
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                        </div>
+                    </div>  
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+
+    <div id="support" class="text-center my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 py-3">
+                    <h1>Experience Great Support</h1>
+                </div>
+                <div class="col-12 py-3">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis accusamus fuga cupiditate dolore quia? Vitae blanditiis minus, quis ipsa aliquid iusto totam iure quidem, ut voluptas necessitatibus quibusdam doloremque? Ea?</p>
+                </div>
+                <div class="col-12 py-3">
+                    <a href=""><button type="button" class="banner-button">REACH OUR SUPPORT TEAM</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="latest" class="py-5">
+        <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2>Latest From Our Blogs</h2>
+                        <p class="text-muted mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla excepturi  adipisicing elit. Nulla excepturi soluta distinctio, nobis explicabo soluta distinctio, nobis explicabo quidem </p>
+                    </div>
+                    <div class="col-md-3 py-3 hov">
+                        <img src="leftpic.jpg" alt="" class="img-fluid py-2">
+                        <span class="date-block">10 JAN 2018</span>
+                        <h5 class="py-2">Addiction When Gambling Becomes A Problem</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugiat.</p>
+                        <div class="justify-content-between d-flex">
+                            <p class="text-muted"><span>&#9825;  </span>Likes</p>
+                            <p class="text-muted"><span></span>Comments</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 hov">
+                        <img src="leftpic.jpg" alt="" class="img-fluid py-2">
+                        <span class="date-block">10 JAN 2018</span>
+                        <h5 class="py-2">Addiction When Gambling Becomes A Problem</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugiat.</p>
+                        <div class="justify-content-between d-flex">
+                            <p class="text-muted"><span>&#9825;  </span>Likes</p>
+                            <p class="text-muted"><span></span>Comments</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 hov">
+                        <img src="leftpic.jpg" alt="" class="img-fluid py-2">
+                        <span class="date-block">10 JAN 2018</span>
+                        <h5 class="py-2">Addiction When Gambling Becomes A Problem</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugiat.</p>
+                        <div class="justify-content-between d-flex">
+                            <p class="text-muted"><span>&#9825;  </span>Likes</p>
+                            <p class="text-muted"><span></span>Comments</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 hov">
+                        <img src="leftpic.jpg" alt="" class="img-fluid py-2">
+                        <span class="date-block">10 JAN 2018</span>
+                        <h5 class="py-2">Addiction When Gambling Becomes A Problem</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugiat.</p>
+                        <div class="justify-content-between d-flex">
+                            <p class="text-muted"><span>&#9825;  </span>Likes</p>
+                            <p class="text-muted"><span></span>Comments</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    
+    <div id="footer">
+        <footer class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h5 class="py-2">Quick Link</h5>
+                        <ul>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Brand Assets</a></li>
+                            <li><a href="#">Customer Relation</a></li>
+                            <li><a href="#">Terms Of Service</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-2">
+                        <h5 class="py-2">Quick Link</h5>
+                        <ul>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Brand Assets</a></li>
+                            <li><a href="#">Customer Relation</a></li>
+                            <li><a href="#">Terms Of Service</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-2">
+                        <h5 class="py-2">Quick Link</h5>
+                        <ul>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Brand Assets</a></li>
+                            <li><a href="#">Customer Relation</a></li>
+                            <li><a href="#">Terms Of Service</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-2">
+                        <h5 class="py-2">Quick Link</h5>
+                        <ul>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Brand Assets</a></li>
+                            <li><a href="#">Customer Relation</a></li>
+                            <li><a href="#">Terms Of Service</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h5 class="py-2">Newsletter</h5>
+                        <p class="text-muted" >Stay update with our latest.</p>
+                        <form action="" class="form-group form-inline">
+                            <input type="email" class="form-control" placeholder="Enter Email">
+                            <button class="email-btn"><span>&#8594</span></button>
+                        </form>
+
+                    </div>
+
+                    <div class="col-12 text-center pt-5 copyright">
+                        <p class="text-muted"> Copyright All rights Reserved | This website is designed by <span>PJK</span> </p>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
